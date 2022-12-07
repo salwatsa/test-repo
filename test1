@@ -18,3 +18,11 @@
         </ion-avatar>
       </ion-toolbar>
     </ion-header>
+
+    <div class="background-mobile"></div>
+      <div class="intro-mobile-2">
+        <h1 slot="start" style="margin: 10px 3px">Bicara.ai</h1>
+        <button slot="end" v-on:click="open_side()" id="menu">
+          <span class="material-symbols-rounded menu"> menu </span>
+        </button>
+      </div>
